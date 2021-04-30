@@ -1,12 +1,40 @@
 body {
   background: gray;
+  margin: 20px;
 }
 
 h1 {
   font-family: "Courier New", Courier, monospace;
-  text-align: center;
+  text-align: left;
+  font-size: 75px;
+  font-weight: normal;
+  line-height: 2px;
+}
+
+hr {
+  width: 100%;
+  border: 1px black solid;
+  background-color: black;
+  height: 1px;
 }
 
 p {
   font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+button.mainButton {
+  background-color: transparent;
+  border: transparent;
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  font-size: 50px;
+  padding: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+button.mainButton.mainButton:hover {
+  background-color: darkgray;
 }
